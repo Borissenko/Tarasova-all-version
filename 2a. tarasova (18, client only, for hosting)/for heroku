@@ -1,0 +1,16 @@
+
+Данная папка- это проект Тарасовой, подготовленный для хостинга на heroku - git-локальный проект привязан к хостингу
+
+адресс проекта
+https://tarasova.herokuapp.com/
+
+git remote add origin https://github.com/Borissenko/tarasova_GH.git
+https://git.heroku.com/tarasova.git
+
+внесение изменений в проект
+git status
+git add .
+git commit -m "change"
+
+git remote -v   // проверка подключения локального git to git-heroku-server
+git push heroku master

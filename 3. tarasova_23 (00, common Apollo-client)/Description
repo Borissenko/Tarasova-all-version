@@ -1,0 +1,68 @@
+
+inject dependencies to both side- npm run inst
+
+running project - npm dev
+
+========
+query {
+  getAllStatement {
+    name
+    statement
+  }
+}
+
+========
+mutation ($name: String!, $email: String, $statement:String) {
+  addStatement (name: $name, email: $email, statement: $statement) {
+    name
+    statement
+  }
+}
+{
+  "name": "lora",
+  "email": "rrr",
+  "statement": "GO !"
+}
+
+ответ:
+{
+  "data": {
+    "addStatement": [
+      {
+        "name": "iii",
+        "statement": "GO !"
+      },
+      {
+        "name": "Kola",
+        "statement": "Go"
+      },
+      {
+        "name": "Ola",
+        "statement": "yeee"
+      }
+    ]
+  }
+}
+
+=======
+=======
+query($basicName: String!) {    // ! у String- нужен
+  getPage(basicName: $basicName) {
+    basicName
+    title
+    component {
+      text
+    }
+  }
+}
+{
+  "basicName": "biography"
+}
+
+=======
+query {
+  getFerst {
+    basicName   // ! у basicName- Не нужен
+    title
+  }
+}

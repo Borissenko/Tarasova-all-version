@@ -1,0 +1,15 @@
+
+inject dependencies to both side- npm run inst
+if it would be needed hit the - npm audit fix && cd client && npm audit fix
+
+chenge head to ROOT again and then
+running project from ROOT directory- cd ../ && npm run dev
+
+
+to make chenge:
+git add .
+git status
+git commit -m "hi !"
+
+git remote -v
+git push -u origin master

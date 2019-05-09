@@ -1,0 +1,9 @@
+внесение изменений в проект, привязанный к heroku
+https://tarasova.herokuapp.com/
+
+git remote add origin https://github.com/Borissenko/tarasova_GH.git
+
+git status
+git add .
+git commit -m "change"
+git push heroku master

@@ -1,0 +1,153 @@
+/*fonts*/
+.dark {
+  color: #00081a;
+}
+
+.blue {
+  color: #334c80;
+}
+
+.light-blue {
+  color: #009cff;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.px30Menu {
+  font-family: ITFDevanagari, Arial, sans-serif;
+  font-size: 26px;
+  line-height: 1.0;
+  text-align: left;
+  color: #ffffff;
+}
+
+.px30Menu:hover {
+  color: #009cff;
+}
+
+.px30 {
+  object-fit: contain;
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.37;
+  text-align: left;
+}
+
+.px18 {
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: left;
+}
+
+.px16 {
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+}
+
+.px14 {
+  object-fit: contain;
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: left;
+}
+
+.px12 {
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+}
+
+.px10 {
+  object-fit: contain;
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.px8 {
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 8px;
+  line-height: 1.33;
+  text-align: left;
+}
+
+a:hover {     /*гиперссылкa "nuxt-link" при наведении*/
+  color: #009cff;
+  text-decoration: none;
+}
+
+p {     /*dark px14*/
+  color: #00081a;
+  object-fit: contain;
+  font-family: NotoSerif, Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: left;
+}
+
+h3 {
+  text-align: justify;
+  overflow: auto;
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  color: #000;
+  background-color: #E3E9F5;
+  padding: 20px;
+  width: 95%;
+}
+
+h3 span {
+  float: left;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+  width: 95%;
+}
+
+/**, *:before, *:after {*/
+  /*-webkit-transition: all .12s ease;*/
+  /*-moz-transition: all .12s ease;*/
+  /*-o-transition: all .12s ease;*/
+  /*transition: all .3s ease;*/
+/*}*/
+
+.margin-external {
+  padding: 7.4728%;  /*55px*/
+}
+
+@media (max-width: 500px) {
+  .px18 {
+    font-size: 14px;
+  }
+}
+/*for dev*/
+.vv {
+  border: red solid 1px;
+}
+
+.bb {
+  border: orange solid 1px;
+}
+
+.mm {
+  border: blue solid 1px;
+}
+
+.nn {
+  border: chartreuse solid 1px;
+}

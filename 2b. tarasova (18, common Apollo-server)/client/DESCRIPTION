@@ -1,0 +1,36 @@
+находясь в папке локального проекта соединяю его с bitbucket-проектом
+git remote   > none
+git remote add origin git@bitbucket.org:Dormeev/tarasova_my_version.git (объявлено при создании реп-я на ВВ)
+git remote   > origin
+
+запушить локальный проект в bitbucket-проект
+git push origin master
+
+\\ WebStorm
+commit end push to bitbucket:
+VCS/Commit добавляю пояснения и жму внизу кнопку
+
+
+ToDo
+-добавить ERROR-стр
+
+-убрать fontawesome из static to assets (?)
+
+-добавить анимацию переходов
+
+-все комментарии перевести на англ
+
+-прокрутку- только для текста, фотка- на месте    /*background-attachment: fixed*/
+
+-ленивую загрузку фото и видео-страниц
+-создать заставку Loading...
+
+-добавить метатеги title для каждой стр
+
+
+
+
+
+
+
+
